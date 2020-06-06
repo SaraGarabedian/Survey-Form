@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1 id="title">Company Survey Form</h1>
+<p type="text" id="description">Match your company with the right collaborators</p>
+<form id="survey-form">
+  <label id="name-label" for="name">Name</label> <br>
+  <input type="text" name="name" id="name" placeholder="Company name" required></input>
+<br><br>
+
+<label id="email-label" for="email">Email</label><br>
+<input type="email" name="email" id="email" placeholder="Interlocutor email" required></input>
+<br><br>
+
+<label id="number-label" for="nb-collab">How many collaborators do you want to recruit?</label><br>
+<input type="number" id="number" placeholder="Amount" min="0" max="1500"></input> 
+<br><br>
+
+<label id="dropdown" for"dropdown">When do you need your collaborators to start?</label><br>
+<select id="dropdown">
+  <option value="immediately">Immediately</option>
+  <option value="under-3-months">Under 3 months</option>
+  <option value="3-6-months">3-6 months</option>
+  <option value="6-12-months">6-12 months</option>
+</select>
+<br><br>
+<label for="experience">How much experience do you want your collaborators to have?</label><br>
+<input type="radio" id="exp-0-2years" name="experience" value="0-2years">0-2 years</input><br>
+<input type="radio" id="exp-2-3years" name="experience" value="2-3years">2-3 years</input><br>
+<input type="radio" id="exp-3-5years" name="experience" value="3-5years">3-5 years</input><br>
+<br>
+
+<label for="position">What fields do you want your recruits for?</label><br>
+<input type="checkbox" id="java" name="position" value="Java">Java</input><br>
+<input type="checkbox" id="javascrpit" name="position" value="JavaScript">JavaScript</input><br>
+<input type="checkbox" id="CSS" name="position" value="CSS">CSS</input><br>
+<input type="checkbox" id="manager" name="position" value="Management">Management</input><br>
+<input type="checkbox" id="scrum" name="position" value="Scrum">Scrum Master</input><br>
+<br>
+<label for="surveyreview">Addition information you wish to provide us with:</label><br>
+<textarea id="surveyreview" name="review" rows="5" cols="50"></textarea>
+<br>
+<input type="submit" id="submit" value="Submit">
+</form>
+
+</body>
+</html>

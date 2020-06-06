@@ -1,0 +1,34 @@
+body {
+  font-family: 'Lora', serif;
+  background-image: url(https://t4.ftcdn.net/jpg/01/88/23/93/240_F_188239361_actp5A0H2QsAX9OTfoYp9PDIRfnyUSYu.jpg);
+  
+  background-color: hsla(270, 11%, 66%, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: #52527a;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#description {
+font-size: 200%;  
+  text-decoration: underline;
+  color: #52527a;
+}
+
+input::placeholder {
+  color: #9f9fdf;
+  background-color: beige;
+}
+
+label {
+  text-decoration: underline wavy #7575a3;
+  color: hsla(274, 54%, 11%, 1);
+  font-size: 20px;
+}
